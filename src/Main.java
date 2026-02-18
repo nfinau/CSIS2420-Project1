@@ -1,6 +1,6 @@
 /**
  * Project 1 Skeleton
- * CSIS2420 Discrete Structures
+ * CSIS2430 Discrete Structures
  *
  * This file verifies the project builds and runs before implementation begins.
  */
