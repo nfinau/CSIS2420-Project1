@@ -1,11 +1,19 @@
-# CSIS2430-Project1
+# CSIS2420-Project1
 
 ## How to Run
-1. (steps here: language/compiler/runtime)
-2. Example:
-   - command:
-   - expected output:
+
+Compile:
+javac src/Main.java
+
+Run:
+java -cp src Main
+
+## Expected Output
+Project 1 skeleton running...
+Initialize step complete.
+Processing step placeholder.
+Output step placeholder.
 
 ## Repo Structure
-- /src = implementation
-- /docs = plan + scope + pseudocode + evidence
+/src = implementation (Java program)
+/docs = plan + scope + pseudocode + evidence
