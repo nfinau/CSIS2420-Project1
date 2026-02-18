@@ -1,5 +1,4 @@
 # CSIS2420-Project1
-# Project 1
 
 ## How to Run
 1. (steps here: language/compiler/runtime)
