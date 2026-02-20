@@ -109,8 +109,8 @@ public class Main {
     }
     return result;
 }
-    // static boolean[] intersection(boolean[] A, boolean[] B) { ... }
-    static boolean[] intersection(boolean[] A, boolean[] B) {
+    // static boolean[] intersection(boolean[] A, boolean[] B) { ... } 
+    static boolean[] intersection(boolean[] A, boolean[] B) { // Intersection: element must exist in both sets
     boolean[] result = new boolean[A.length];
     for (int i = 0; i < A.length; i++) {
         result[i] = A[i] && B[i];
