@@ -23,7 +23,7 @@ public class Main {
         printSet("A", A);
         printSet("B", B);
 
-        // We'll implement these one-by-one:
+        // Part 1:
         printSet("A ∪ B", union(A, B));
         printSet("A ∩ B", intersection(A, B));
         printSet("A - B", difference(A, B));
@@ -100,7 +100,7 @@ public class Main {
         return first ? "(empty bag)" : sb.toString();
     }
 
-    // ---------- Part 1 Operations (we will add these next) ----------
+    // ---------- Part 1 Operations ----------
     // static boolean[] union(boolean[] A, boolean[] B) { ... }
     static boolean[] union(boolean[] A, boolean[] B) {
     boolean[] result = new boolean[A.length];
