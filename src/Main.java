@@ -24,7 +24,6 @@ public class Main {
         printSet("B", B);
 
         // We'll implement these one-by-one:
-        // printSet("A ∪ B", union(A, B));
         // printSet("A ∩ B", intersection(A, B));
         // printSet("A - B", difference(A, B));
         // printSet("NOT(A)", complement(A));
@@ -102,6 +101,13 @@ public class Main {
 
     // ---------- Part 1 Operations (we will add these next) ----------
     // static boolean[] union(boolean[] A, boolean[] B) { ... }
+    static boolean[] union(boolean[] A, boolean[] B) {
+    boolean[] result = new boolean[A.length];
+    for (int i = 0; i < A.length; i++) {
+        result[i] = A[i] || B[i];
+    }
+    return result;
+}
     // static boolean[] intersection(boolean[] A, boolean[] B) { ... }
     // static boolean[] difference(boolean[] A, boolean[] B) { ... }
     // static boolean[] complement(boolean[] A) { ... }
