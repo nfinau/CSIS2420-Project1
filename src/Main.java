@@ -4,7 +4,7 @@
  * Part 2: Multisets (bags) using integer counts
  *
  * Team: TBD
- * Members: Naomi, Alejandro, Bryant
+ * Members: Naomi, Alejandro, Bryant, Han
  */
 public class Main {
 
@@ -26,7 +26,7 @@ public class Main {
         // We'll implement these one-by-one:
         printSet("A ∪ B", union(A, B));
         printSet("A ∩ B", intersection(A, B));
-        // printSet("A - B", difference(A, B));
+        printSet("A - B", difference(A, B));
         // printSet("NOT(A)", complement(A));
         // printSet("A ⊕ B", symmetricDifference(A, B));
 
@@ -118,6 +118,15 @@ public class Main {
     return result;
 }
     // static boolean[] difference(boolean[] A, boolean[] B) { ... }
+    static boolean[] difference(boolean[] A, boolean[] B) {
+    boolean[] result = new boolean[A.length];
+
+    for (int i = 0; i < A.length; i++) {
+        result[i] = A[i] && !B[i];
+    }
+
+    return result;
+}
     // static boolean[] complement(boolean[] A) { ... }
     // static boolean[] symmetricDifference(boolean[] A, boolean[] B) { ... }
 
