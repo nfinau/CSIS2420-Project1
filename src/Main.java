@@ -42,7 +42,7 @@ public class Main {
         printBag("A ⊎ B (Union=max)", multisetUnion(bagA, bagB));
         printBag("A ⊓ B (Intersection=min)", multisetIntersection(bagA, bagB));
         printBag("A - B (Difference)", multisetDifference(bagA, bagB));
-        // printBag("A + B (Sum)", multisetSum(bagA, bagB));
+        printBag("A + B (Sum)", multisetSum(bagA, bagB));
     }
 
     // ---------- Printing Helpers ----------
@@ -251,4 +251,14 @@ public class Main {
     return result;
 }
     // static int[] multisetSum(int[] A, int[] B) { ... }
+    static int[] multisetSum(int[] A, int[] B) {
+    int[] result = new int[A.length];
+
+    for (int i = 0; i < A.length; i++) {
+        result[i] = A[i] + B[i];
+    }
+
+    return result;
+}
+    
 }
