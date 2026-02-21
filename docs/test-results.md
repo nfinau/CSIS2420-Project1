@@ -43,6 +43,8 @@ PART 2:
 - A + B (sum counts)
 
 ## Actual Output
+Baseline output from implementation environment (author run).
+Verification lead should independently run and compare.
 === PART 1: Ordinary Sets ===
 
 --- A ---
