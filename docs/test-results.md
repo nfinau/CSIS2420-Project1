@@ -43,28 +43,6 @@ PART 2:
 - A + B (sum counts)
 
 ## Actual Output
-(Paste console output here)
-
-## Result
-PASS / FAIL
-
-## Notes
-(Describe any mismatch in labels, order, or formatting)
-
----
-
-# TEST CASE 2 — Edge Case: Empty Sets
-
-## Setup
-All boolean values false
-All bag counts 0
-
-## Expected
-- Prints "(empty set)" for sets
-- Prints "(empty bag)" for multisets
-- No crashes or exceptions
-
-## Actual Output
 === PART 1: Ordinary Sets ===
 
 --- A ---
@@ -125,6 +103,28 @@ Elements: Apple(3), Banana(1), Cherry(1), Date(2), Elderberry(4), Grape(1), Hone
 PASS / FAIL
 
 ## Notes
+(Describe any mismatch in labels, order, or formatting)
+
+---
+
+# TEST CASE 2 — Edge Case: Empty Sets
+
+## Setup
+All boolean values false
+All bag counts 0
+
+## Expected
+- Prints "(empty set)" for sets
+- Prints "(empty bag)" for multisets
+- No crashes or exceptions
+
+## Actual Output
+(waiting for verification lead)
+
+## Result
+PASS / FAIL
+
+## Notes
 
 ---
 
@@ -141,7 +141,7 @@ All bag counts > 0
 - Multiset operations produce correct counts
 
 ## Actual Output
-(Paste console output)
+(waiting for verification lead)
 
 ## Result
 PASS / FAIL
@@ -172,6 +172,10 @@ Overall Result:
 PASS / FAIL
 
 Verified By:
+Bryant Gonzalez Guzman & Alejandro Pasillas
 
+Recorded by: 
+Naomi Finau (repository maintainer)
 
 Date:
+02-21-2026
