@@ -24,11 +24,11 @@ public class Main {
         printSet("B", B);
 
         // Part 1:
-        printSet("A ∪ B", union(A, B));
-        printSet("A ∩ B", intersection(A, B));
+        printSet("A U B", union(A, B));
+        printSet("A n B", intersection(A, B));
         printSet("A - B", difference(A, B));
         printSet("NOT(A)", complement(A));
-        printSet("A ⊕ B", symmetricDifference(A, B));
+        printSet("A XOR B", symmetricDifference(A, B));
 
         System.out.println("\n=== PART 2: Multisets (Bags) ===");
 
@@ -39,10 +39,10 @@ public class Main {
         printBag("Bag B", bagB);
 
         // Part 2:
-        printBag("A ⊎ B (Union=max)", multisetUnion(bagA, bagB));
-        printBag("A ⊓ B (Intersection=min)", multisetIntersection(bagA, bagB));
-        printBag("A - B (Difference)", multisetDifference(bagA, bagB));
-        printBag("A + B (Sum)", multisetSum(bagA, bagB));
+        printBag("A U B (max count)", multisetUnion(bagA, bagB));
+        printBag("A n B (min count)", multisetIntersection(bagA, bagB));
+        printBag("A - B (subtract, floor 0)", multisetDifference(bagA, bagB));
+        printBag("A + B (sum counts)", multisetSum(bagA, bagB));
     }
 
     // ---------- Printing Helpers ----------
