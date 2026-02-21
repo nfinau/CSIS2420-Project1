@@ -100,7 +100,7 @@ Counts: [3, 1, 1, 2, 4, 0, 1, 3, 0, 3]
 Elements: Apple(3), Banana(1), Cherry(1), Date(2), Elderberry(4), Grape(1), Honeydew(3), Lemon(3)
 
 ## Result
-PASS / FAIL
+PASS / FAIL (to be completed by verification lead)
 
 ## Notes
 (Describe any mismatch in labels, order, or formatting)
@@ -172,10 +172,7 @@ Overall Result:
 PASS / FAIL
 
 Verified By:
-Bryant Gonzalez Guzman & Alejandro Pasillas
-
-Recorded by: 
-Naomi Finau (repository maintainer)
+(Verification Lead)
 
 Date:
-02-21-2026
+
