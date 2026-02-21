@@ -220,6 +220,21 @@ public class Main {
 }
 
     // ---------- Part 2 Operations ----------
+
+    /**
+ * Multiset Union (A U B)
+ *
+ * Computes the multiset union of two bags represented as integer count arrays.
+ * Each index corresponds to an element in the universal set.
+ * The result takes the maximum count at each position.
+ *
+ * Logical rule:
+ * result[i] = max(A[i], B[i])
+ *
+ * @param A first bag (count array)
+ * @param B second bag (count array)
+ * @return a new integer array representing the multiset union
+ */
     // static int[] multisetUnion(int[] A, int[] B) { ... }
     static int[] multisetUnion(int[] A, int[] B) {
     int[] result = new int[A.length];
@@ -230,6 +245,21 @@ public class Main {
 
     return result;
 }
+
+    /**
+ * Multiset Intersection (A n B)
+ *
+ * Computes the multiset intersection of two bags represented as integer count arrays.
+ * Each index corresponds to an element in the universal set.
+ * The result takes the minimum count at each position.
+ *
+ * Logical rule:
+ * result[i] = min(A[i], B[i])
+ *
+ * @param A first bag (count array)
+ * @param B second bag (count array)
+ * @return a new integer array representing the multiset intersection
+ */
     // static int[] multisetIntersection(int[] A, int[] B) { ... }
     static int[] multisetIntersection(int[] A, int[] B) {
     int[] result = new int[A.length];
@@ -240,6 +270,22 @@ public class Main {
 
     return result;
 }
+
+    /**
+ * Multiset Difference (A - B)
+ *
+ * Computes the multiset difference of two bags represented as integer count arrays.
+ * Each index corresponds to an element in the universal set.
+ * The result subtracts B's count from A's count at each position,
+ * but never allows negative values.
+ *
+ * Logical rule:
+ * result[i] = max(A[i] - B[i], 0)
+ *
+ * @param A first bag (count array)
+ * @param B second bag (count array)
+ * @return a new integer array representing the multiset difference
+ */
     // static int[] multisetDifference(int[] A, int[] B) { ... }
     static int[] multisetDifference(int[] A, int[] B) {
     int[] result = new int[A.length];
@@ -250,6 +296,21 @@ public class Main {
 
     return result;
 }
+
+    /**
+ * Multiset Sum (A + B)
+ *
+ * Computes the multiset sum of two bags represented as integer count arrays.
+ * Each index corresponds to an element in the universal set.
+ * The result adds the counts at each position.
+ *
+ * Logical rule:
+ * result[i] = A[i] + B[i]
+ *
+ * @param A first bag (count array)
+ * @param B second bag (count array)
+ * @return a new integer array representing the multiset sum
+ */
     // static int[] multisetSum(int[] A, int[] B) { ... }
     static int[] multisetSum(int[] A, int[] B) {
     int[] result = new int[A.length];
