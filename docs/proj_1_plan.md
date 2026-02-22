@@ -6,8 +6,6 @@
 - Team (Communications Lead) — report assembly, run instructions, deliverable packaging
 - Han (Flex) — support role based on team needs
 
-> Note: Roles will be confirmed/updated when replies are received.
-
 ## Milestones
 - M1: Repo + plan + design artifacts ready (Checkpoint)
 - M2: Core implementation complete
@@ -32,4 +30,22 @@
 - Primary: Canvas group message + (optional) Discord/text if team agrees
 - Response expectation: 24–48 hours
 - If no response: proceed with plan + document decisions + leave tasks available for teammates to claim later
+
+Checkpoint Update — Week 2
+
+Completed:
+- Core set operations implemented
+- Multiset operations implemented
+- Console output verified
+- Test cases created (docs/test-results.md)
+- Encoding compatibility fix (Unicode → ASCII labels)
+- Collaborators added to repo
+
+In Progress:
+- Verification lead running test validation
+- Edge case confirmation
+
+Next:
+- Commit 2 test cases
+- Final verification
 
