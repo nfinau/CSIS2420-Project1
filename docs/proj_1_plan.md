@@ -1,5 +1,10 @@
 # Project 1 Plan
 
+Repository: https://github.com/nfinau/CSIS2430-Project1
+Language: Java
+Build: javac src/Main.java
+Run: java -cp src Main
+
 ## Team + Roles
 - Naomi (Implementation Lead) — core implementation, integration, main branch health
 - Alejandro, Bryant, & Han (Verification Lead) — test plan, edge cases, verification evidence
