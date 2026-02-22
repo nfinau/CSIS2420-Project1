@@ -2,9 +2,9 @@
 
 ## Team + Roles
 - Naomi (Implementation Lead) — core implementation, integration, main branch health
-- Bryant (Verification Lead) — test plan, edge cases, verification evidence
-- TBD (Communications Lead) — report assembly, run instructions, deliverable packaging
-- TBD (Flex) — support role based on team response
+- Alejandro, Bryant, & Han (Verification Lead) — test plan, edge cases, verification evidence
+- Team (Communications Lead) — report assembly, run instructions, deliverable packaging
+- Han (Flex) — support role based on team needs
 
 > Note: Roles will be confirmed/updated when replies are received.
 
