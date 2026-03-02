@@ -47,10 +47,8 @@ Completed:
 - Collaborators added to repo
 
 In Progress:
-- Verification lead running test validation
-- Edge case confirmation
+- Communications lead running instructions + packaging
 
 Next:
-- Commit 2 test cases
 - Final verification
 
