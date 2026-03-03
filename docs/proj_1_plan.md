@@ -29,7 +29,7 @@ Run: java -cp src Main
 | 7 | Implement core feature A | Naomi | Done | Feature works on at least 3 sample inputs | commit: b743616 |
 | 8 | Implement core feature B | Naomi | Done | Feature works + integrated | commit: 11977fa |
 | 9 | Add automated/manual verification evidence | Bryant | Done | Test results documented in /docs/test-results.md | commit: 57c0b36 |
-| 10 | Run instructions + packaging | Han | Not Started | README has run steps; deliverables zipped | (future) |
+| 10 | Run instructions + packaging | Naomi | Done | README has run steps; deliverables zipped | commit: b001ac9 |
 
 ## Communication Plan
 - Primary: Canvas group message + (optional) Discord/text if team agrees
